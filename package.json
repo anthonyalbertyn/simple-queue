@@ -1,0 +1,31 @@
+{
+  "name": "@anthonyalbertyn/simple-queue",
+  "version": "1.0.0",
+  "description": "Queue data structure with enqueue, dequeue, peek, size and flush methods",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example1": "node ./examples/example1.js",
+    "example2": "node ./examples/example2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyalbertyn/simple-queue.git"
+  },
+  "keywords": [
+    "simple",
+    "queue",
+    "enqueue",
+    "dequeue",
+    "node"
+  ],
+  "author": "Anthony Albertyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonyalbertyn/simple-queue/issues"
+  },
+  "homepage": "https://github.com/anthonyalbertyn/simple-queue#readme"
+}
