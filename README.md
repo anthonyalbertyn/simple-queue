@@ -1,4 +1,4 @@
-# simpe-queue
+# simple-queue
 
 SimpleQueue can be used in server-side Node or other JavaScript projects
 
