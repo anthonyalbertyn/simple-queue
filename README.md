@@ -8,7 +8,7 @@ MIT License, see LICENSE for more details
 
 ## Uses case
 
-When you need a queue that has no dependencies on other libraries and you just want something light-weight that does the job. No bells and whistles and just works. Also when when you want to keep your code clean and DRY and get on with doing more interesting things :)
+When you need a queue that has no dependencies on other libraries and you just want something lightweight that does the job. No bells and whistles and just works. Also when when you want to keep your code clean and DRY and get on with doing more interesting things :)
 
 ## Getting started
 
@@ -62,7 +62,7 @@ You may create more than one SimpleQueue in your code.
 
 ## Limitations
 
-The actual queue under the hood is a JavaScript array and not a linked list. Adding items to the queue are constant time O(1), but removing an item from the queue has time complexity of O(n) as all the items in the array need to be moved one position to the left by JavaScript. SimpleQueu should work great for small to medium length queus, but as the length of the queue grows, the time to remove items will increase exponentially.
+The actual queue under the hood is a JavaScript array and not a linked list. Adding items to the queue are constant time O(1), but removing an item from the queue has time complexity of O(n) as all the items in the array need to be moved one position to the left by JavaScript. SimpleQueue should work great for small to medium length queus, but as the length of the queue grows, the time to remove items will increase exponentially.
 
 ## Non-scientific benchmark
 
@@ -72,7 +72,7 @@ Time to dequeue the above queue 30,000 times: around 365 milliseconds
 
 These are just crude benchmarks and times can differ depending on where you are running the code and what else is happening in your app or system, and what data the queue contains, so no guarantees at all on performance.
 
-see examples/example2 for details on how this was tested
+See examples/example2 for details on how this was tested
 
 ## Maintainers
 
